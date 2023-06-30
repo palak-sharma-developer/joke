@@ -7,13 +7,36 @@
     <title>AJAX HTTP CALL</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body  >
+<body>
+<div class="header">
+    <a href="#default" class="logo"><img src="2.png" height="70px" width="100px"></a>
+    <div class="header-right">
+        <a class="active" href="#index.html">Home</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/about.html">About</a>
+    </div>
+</div>
 
- <div id="mainContainer">
-     <div id="joke" class="joke"> joke is loading...</div>
-     <button id="btn" class="btn"> Next </button>
-      </div>
+<div id="mainContainer">
 
-    <script src="index.js"></script>
+    <div class="subContainer">
+        <div class="jokesContainer">
+            <p id="demo1"></p>
+            <p id="demo2"></p>
+        </div>
+
+        <div class="buttonDiv">
+            <button id="btn1" class="btn" onclick="Previous()"> Previous</button>
+            <button id="btn3" class="btn" onclick="Click()"> Get started</button>
+            <button id="btn2" class="btn" onclick="Next()"> Next</button>
+        </div>
+    </div>
+
+</div>
+<div class="footer">
+    <p>&copy; 2023 My Webpage. All rights reserved.</p>
+    <p>Contact: palaksharm2508@gamil.com</p>
+</div>
+<script src="index.js"></script>
 </body>
 </html>
